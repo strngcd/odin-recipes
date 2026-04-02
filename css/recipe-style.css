@@ -1,0 +1,55 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+body{
+    background-color: bisque;
+}
+
+h1 {
+    font-size: 7em;
+
+}
+h2{
+    font-size: 4em;
+}
+h1,h2 {
+    text-align: center;
+}
+.ingredient , .instructions {
+    display: inline-block;
+    margin-left: 2em;
+    width: 45%;
+    vertical-align: top;
+}
+h3 {
+    text-align: center;
+    font-size: 2.5em;
+}
+p {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+}
+a{
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;  /* Removes underline */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+a:hover{
+    background-color: #c0392b;
+    color: black;
+}
+footer {
+    text-align: center;
+}

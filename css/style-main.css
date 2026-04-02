@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../images/background-img-real.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.recipe-lists{
+    background-color: whitesmoke;
+    border-radius: 16px;
+    padding: 1rem;
+    margin: 2rem;
+}
+h1{
+    font-size: 72px;
+}
+h1, h2{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+}
+h2{
+    font-size: 36px;
+}
+a{
+    color: rgb(34, 63, 231);
+}
+hr{
+    border: none;
+    border-top: 1px solid gray;
+}
+li img{
+    width: 32px;
+    margin-right: 12px;
+}
